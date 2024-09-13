@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Code
 {
-    public class PlayerContoller : MonoBehaviour
+    public class PlayerController : MonoBehaviour
     {
         //Outlet
         Rigidbody2D rb;
