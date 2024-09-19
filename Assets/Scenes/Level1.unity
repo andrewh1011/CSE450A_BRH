@@ -287,6 +287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aimPivot: {fileID: 1779571680}
   projectilePrefab: {fileID: 5919754526698378586, guid: 6cb146471b72b4487b9b89a980005f25, type: 3}
+  jumpsLeft: 3
 --- !u!1001 &338575025
 PrefabInstance:
   m_ObjectHideFlags: 0
