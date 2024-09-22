@@ -14,6 +14,7 @@ namespace Code
         {
             _rigidbody2D = GetComponent<Rigidbody2D>();
             _rigidbody2D.velocity = transform.right * 10f;
+            Destroy(gameObject, 10f);
         }
 
         // Update is called once per frame
