@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 namespace Code {
     public class PlayerController : MonoBehaviour {
@@ -8,6 +10,10 @@ namespace Code {
         Rigidbody2D _rigidbody;
         public Transform aimPivot;
         public GameObject projectilePrefab;
+        
+        //Gamepad Configuration:
+        
+        
 
         // State Tracking
         public int jumpsLeft;
