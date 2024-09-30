@@ -21,7 +21,15 @@ namespace Code
         
         void UpdateSprite(GameObject digitObject, int number)
         {
+            print("Updating sprite: " + digitObject.name);
+
+            print("Updating with: " + number);
+            
+            
             SpriteRenderer spriteRenderer = digitObject.GetComponent<SpriteRenderer>();
+            
+            print("Our sprite renderer of " + digitObject.name + " is " + spriteRenderer.sprite);
+            
             if (spriteRenderer != null && number < numberSprites.Length)
             {
                 spriteRenderer.sprite = numberSprites[number];
@@ -31,10 +39,15 @@ namespace Code
 
         void UpdateTimerDisplay()
         {
-            print("Timer Digits Count: " + timerDigits.Length);
+            //print("Timer Digits Count: " + timerDigits.Length);
+            
             // Calculate minutes and seconds
             int minutes = Mathf.FloorToInt(timer / 60);
             int seconds = Mathf.FloorToInt(timer % 60);
+            
+            //print("Time: " + minutes + ":" + seconds);
+            
+            //print("timerDigits[0] is: " + timerDigits[0]);
             
             //Update the digit sprites
             UpdateSprite(timerDigits[0], minutes % 10);

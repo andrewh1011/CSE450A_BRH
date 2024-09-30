@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 185001634968032855}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.78, y: 7.17, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -110,7 +110,7 @@ Transform:
   m_GameObject: {fileID: 1749667994317071185}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.1, y: 7.55, z: 0}
+  m_LocalPosition: {x: -0.5, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -194,7 +194,7 @@ Transform:
   m_GameObject: {fileID: 2610772153945293570}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.81, y: 6.76, z: 0}
+  m_LocalPosition: {x: -1.5, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -246,7 +246,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.14583333, y: 0.22916667}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -302,15 +302,16 @@ MonoBehaviour:
   timeLimit: 30
   timer: 0
   numberSprites:
-  - {fileID: 459436173, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
-  - {fileID: 2077639942, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
-  - {fileID: -572052899, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
-  - {fileID: 667806340, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
-  - {fileID: -382599950, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
-  - {fileID: -1820747954, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
-  - {fileID: 262312641, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
-  - {fileID: 1097914898, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
-  - {fileID: -941020133, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
+  - {fileID: -685038145, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
+  - {fileID: -1993500342, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
+  - {fileID: 1750189807, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
+  - {fileID: -1857705687, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
+  - {fileID: -1876967796, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
+  - {fileID: -1482560272, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
+  - {fileID: 1033700355, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
+  - {fileID: 213126823, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
+  - {fileID: -1637378130, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
+  - {fileID: 1597836798, guid: 9851a7d38083d0ca5adc3ce8b8c5e4fa, type: 3}
   timerDigits:
   - {fileID: 2610772153945293570}
   - {fileID: 1749667994317071185}

@@ -1,0 +1,822 @@
+fileFormatVersion: 2
+guid: f8f5e2419b96ea6e1ac598bf57daa177
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c714bb7114334c2bcb8addae661ef8
+      internalID: -2136299357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 160
+        width: 123
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3145808d8420c2d069bf38be63ce29e1
+      internalID: -2140971945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 160
+        width: 208
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b80a485a7e3f9e68aec5d170646249
+      internalID: -413891453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 144
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beeff541a0df7e26a812718913a57ae3
+      internalID: -1351036258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 132
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a354e5d3bbe6b88e969a89ac4728fda
+      internalID: 667325089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_5
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 136
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848567a56cbc2a56a8f91689d890fc4f
+      internalID: 1286592993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 128
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bb39c1befbc1f6d80e51bf3cd1a177
+      internalID: -1711266235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 88
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1c2d6f92bdbbc7bbb48f822afbbaf8
+      internalID: -1668129993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 88
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a461fe9c6a6dd4b9f9f97a5627b157
+      internalID: -1846009610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 88
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cf40822b7fc10dda9c42b863a02052
+      internalID: -1141996716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 88
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75abdea2fd97b7d1cb4b9b0b72b4fd58
+      internalID: -1528352481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 88
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c667a2c3ca44d401b205b973d8fc460
+      internalID: 935207248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 88
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7442ff88880095399a1788e225a99e
+      internalID: -1775158248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_13
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 112
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bfc54348175496e807d7c6d845d475
+      internalID: 1835829596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 88
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab58148ef3d396c2a639e14eabed3c7
+      internalID: -322767614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 88
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a3eba30121ae269806aba6b269949f
+      internalID: -775223140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_16
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 56
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27908e23da7e0a0089771a9b9065cec0
+      internalID: 397490766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_17
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 76
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d6d3e7a9077a97187da0bc7bc8835a
+      internalID: 1354461939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_18
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 96
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb5bf03fdeda92729bb3bfe7efcf8e8
+      internalID: -1069667912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741714466373980ce9b6492bcda74924
+      internalID: -1300012489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080f03d27924984a3850055bfebc3f45
+      internalID: -974826521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_21
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 75
+        width: 64
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1058deef1bdfe901cba93d52a5185bfe
+      internalID: -210562134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 56
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024d2ed785dd67a9092b9c322a855306
+      internalID: -1311856950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 56
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053cd1b06734da721aa2c9948bb96a38
+      internalID: -1884095877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_24
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 67
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfc44662968fbb26ae68d38e3e54143
+      internalID: 1672250321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_25
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 67
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4555e647d56c233a3812fd3e8267ca57
+      internalID: -96535386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c394e6372296b564399809c5f99ab9a4
+      internalID: 996072734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e2dbb457c4236d1bf923e09b812799
+      internalID: -1456838860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_28
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8222f1b3ad09a0f7d974f55ef5c31ece
+      internalID: -526603500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_29
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1
+        width: 120
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d4d2e26d48a85059846fa109c801ff
+      internalID: 120461498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_30
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4
+        width: 48
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7d51bbe7858eae69114f244516bf93
+      internalID: 934274050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_0: -2136299357
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_1: -2140971945
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_10: -1528352481
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_11: 935207248
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_12: -1775158248
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_13: 1835829596
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_14: -322767614
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_15: -775223140
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_16: 397490766
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_17: 1354461939
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_18: -1069667912
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_19: -1300012489
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_2: -413891453
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_20: -974826521
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_21: -210562134
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_22: -1311856950
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_23: -1884095877
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_24: 1672250321
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_25: -96535386
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_26: 996072734
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_27: -1456838860
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_28: -526603500
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_29: 120461498
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_3: -1351036258
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_30: 934274050
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_4: 667325089
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_5: 1286592993
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_6: -1711266235
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_7: -1668129993
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_8: -1846009610
+      SMB_NES_PIPES_CASTLE_MUSHROOMPLATS_9: -1141996716
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
