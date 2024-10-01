@@ -17,6 +17,7 @@ namespace Code {
 
         // State Tracking
         public int jumpsLeft;
+        public int dashesLeft;
 
         // Dash Tracking
         enum DashDirection {
@@ -53,21 +54,19 @@ namespace Code {
 
             //Jump
             if (Input.GetKeyDown(KeyCode.Space)) {
-                if (jumpsLeft == 2) {
-                    jumpsLeft--;
-                    _rigidbody.AddForce(Vector2.up * 10f, ForceMode2D.Impulse);
-                }
-                else if (jumpsLeft == 1) {
+                if (jumpsLeft >= 1) {
                     jumpsLeft--;
                     _rigidbody.AddForce(Vector2.up * 15f, ForceMode2D.Impulse);
                 }
                 else if (jumpsLeft == 0 && dashTimer <= 0) {
+                        
                     dashTimer = dashDuration;
                 }
             }
 
             // Dash (used 2d dash tutorial https://generalistprogrammer.com/unity/unity-2d-dash-movement-effect-learn-to-how-to-tutorial/)
-            if (dashTimer > 0) {
+            if (dashTimer > 0 && dashesLeft >= 1) {
+ 
                 dashTimer -= Time.deltaTime;
                 if (dashDirection == DashDirection.Left) {
                     _rigidbody.velocity = Vector2.left * dashSpeed;
@@ -79,6 +78,7 @@ namespace Code {
                 // End dash
                 if (dashTimer <= 0) {
                     _rigidbody.velocity = Vector2.zero;
+                    dashesLeft--;
                 }
             }
 
@@ -108,7 +108,8 @@ namespace Code {
                     RaycastHit2D hit = hits[i];
 
                     if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Ground")) {
-                        jumpsLeft = 2;
+                        jumpsLeft = 1;
+                        dashesLeft = 1;
                     }
                 }
             }
