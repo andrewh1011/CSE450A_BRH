@@ -21,14 +21,14 @@ namespace Code
         
         void UpdateSprite(GameObject digitObject, int number)
         {
-            print("Updating sprite: " + digitObject.name);
+            //print("Updating sprite: " + digitObject.name);
 
-            print("Updating with: " + number);
+            //print("Updating with: " + number);
             
             
             SpriteRenderer spriteRenderer = digitObject.GetComponent<SpriteRenderer>();
             
-            print("Our sprite renderer of " + digitObject.name + " is " + spriteRenderer.sprite);
+            //print("Our sprite renderer of " + digitObject.name + " is " + spriteRenderer.sprite);
             
             if (spriteRenderer != null && number < numberSprites.Length)
             {
@@ -72,7 +72,7 @@ namespace Code
             {
                 timer = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);  
-                print("Round is over, scene has restarted.");
+                print("Round is over because time ran out, scene has restarted.");
             }
             
             UpdateTimerDisplay();

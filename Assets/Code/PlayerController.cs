@@ -13,7 +13,6 @@ namespace Code {
         
         //Gamepad Configuration:
         
-        
 
         // State Tracking
         public int jumpsLeft;

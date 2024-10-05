@@ -1,0 +1,3286 @@
+fileFormatVersion: 2
+guid: 3e757c8c546fcfdd0839cb854d00a082
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 242
+        width: 111
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cf06346daac00b9adc94f1701946e6
+      internalID: 977614409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 242
+        width: 73
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8961aa261c2e2fff949d5eaa74cbf4e
+      internalID: 1131365321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_2
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 242
+        width: 95
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c2735ce56e7fb439e78490413baa33
+      internalID: -1263772737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_3
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 258
+        width: 125
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad528f471783bbb49cc341fbf3f7179
+      internalID: 389557323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_4
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 269
+        width: 48
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ba52acff6098de6b253420e61f3ea2
+      internalID: -1650834648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_5
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 266
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ebd7dcc37e66864acdaa07edb37f54
+      internalID: 1838308460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_6
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 269
+        width: 48
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd49e556c40ce5a3f90733c1c4196e0e
+      internalID: -159594305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_7
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 242
+        width: 89
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f10f817523ff1db199dd2a3923459ee
+      internalID: 71974849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_8
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 250
+        width: 79
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf1c17efde58d5a4a8ff61fbe167a5b
+      internalID: 2111232330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_9
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 242
+        width: 111
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a9242b3a40b05debe6d2b5984fb05d
+      internalID: 271954566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_10
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 242
+        width: 95
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b27b33786e489efb9394fec0f991d44
+      internalID: 1418238903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_11
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 242
+        width: 95
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dc7dce4d53000d488060abd2810d27
+      internalID: 942299045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_12
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 242
+        width: 79
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d52c30249a1341f09e6b8b7c3008698
+      internalID: -159009790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_13
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 255
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676bbb84f4295c1a9839e11867a0eb84
+      internalID: 1093122834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_14
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 258
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d032dd01ba9f05d98fe05203bab5d9
+      internalID: 279559764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_15
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 261
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0675d85e27f9e5ce9337779b280537d
+      internalID: 229487104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_16
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 259
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc973a421faa97ea3a59eb08f41a5bff
+      internalID: 103825837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_17
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 258
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ac7e0c3aedaa3a8b059c7d71c24258
+      internalID: -1587010056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_18
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 258
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5722e6b7d74b4ce8d8f73131cada3f7b
+      internalID: -1200407055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_19
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 253
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac448dbc3068461fac992e9b0cdd94b
+      internalID: 185284941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_20
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 242
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f03eb21d3cffe7584e1eca65806c6f
+      internalID: 902128659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_21
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 253
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a0e65cf28bf05478fbf66e42f9d202
+      internalID: -994040296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_22
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 253
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff66a598a3705da2867c5632db14ca7
+      internalID: 1278704367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 242
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a3bbcd28fd852fdaf4567289ad52d7
+      internalID: -1654617619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_24
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0ff487cb49fdc4da6aec146954c621
+      internalID: -1433779917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 242
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fb3a51f63b965a1a692a196713291e
+      internalID: -693146061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_26
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07151c9ece57bd108a8fd4486107424f
+      internalID: -197813470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 242
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335fd871b36932dcf89b6462159d531f
+      internalID: -920080954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_28
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e896981734a285ab505bb4c82a5141
+      internalID: -727696422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_29
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 242
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee78c1d26e93fbd3baca883c6e02318
+      internalID: 1598200540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd75f93124bd8d458b85d6a37f07d3b2
+      internalID: 305620140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_31
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 242
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbe5f2c52a356059800d90052277e0c
+      internalID: 2103676295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_32
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbb02da3280de4dfb7c89c331ce517c
+      internalID: -469753861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_33
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 242
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72304f61a38053db810d092d4500114
+      internalID: 639343361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_34
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc3daf282ff7b87caca3f9327cf808f
+      internalID: 1789810205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_35
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 242
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d240eb75bcd89768899bddf640de26
+      internalID: 342918502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_36
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 242
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f194e1df892fedaeda830bbf8c59471f
+      internalID: -1514228878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_37
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c6d2ef72b0a73e5b23579968e2afcc
+      internalID: -943925384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_38
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 242
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7450295d4f403a64a830ea50e3a3774
+      internalID: -351574208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_39
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc49bac103af904fd8dd37fa02705c57
+      internalID: -38353166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_40
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 242
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8e885304c4bee85a7754fba6b94e2e
+      internalID: 1981928948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_41
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba7b509abda60440820a60dc6ce3961
+      internalID: 584304247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_42
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 242
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192f65d5cffec4c27b490bca1cdf9c52
+      internalID: 1090548499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_43
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39141efcc946994849d44aca43a89e6c
+      internalID: -1456662389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_44
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 242
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6a1c303cf933c4cb3b572cc6937484
+      internalID: -97288316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_45
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a7db64ae830a691959329f04f5ed88
+      internalID: -1906393430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_46
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 242
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0929d1521b99de2b0ab11875f4a6fdd2
+      internalID: -820778970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_47
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674ff94e549d16a32b99265634a0933b
+      internalID: 867425834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_48
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 242
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6146e18a1ab218c9a8e9f5de07aff469
+      internalID: 1271507861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_49
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 245
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b720a2dcc54e368549a89d945256ca0a
+      internalID: -432343854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 215
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192980d3860de0a779c720fff9ba44c3
+      internalID: -59346063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_51
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 202
+        width: 75
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a21a540df302947a01e25ae4f4f2cb
+      internalID: -1065012895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_52
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 202
+        width: 79
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d976690f0e81008bfa88a7d613fe9eba
+      internalID: 1217715923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_53
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 202
+        width: 79
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fd008e6ad1f7056badbf9efd03f8d0
+      internalID: 159497345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_54
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 202
+        width: 79
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14eb93e7e741ab4f8a08bc7fc4c5c80
+      internalID: -70099040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_55
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 202
+        width: 79
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2624434c58d957a831bc9c0055e0fe
+      internalID: 40823554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_56
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 215
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fedd78c991d7515ab9c790cdf22cad5
+      internalID: -1600583827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_57
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 202
+        width: 83
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5c00b793804349c99d09ae975b716d
+      internalID: -1109008215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_58
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 210
+        width: 79
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c844baefc250f9bbe5133f95186e89
+      internalID: -1603230141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_59
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 210
+        width: 79
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed14e47151dfa91ab9fa328df8113647
+      internalID: 2043723443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_60
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 212
+        width: 100
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ee641140bc247608fe8d2adbd7b5ec
+      internalID: -1498109179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_61
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 215
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fd848e273332999bf66ecfd035549e
+      internalID: 180349078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_62
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 210
+        width: 79
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec58f5744f69767c682b33806355d2bc
+      internalID: -746673830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 202
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868c7e076b02ccb8b801afe17427fdfb
+      internalID: -415601330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_64
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 205
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c594531fc5e061b1dbd30a5d48029a19
+      internalID: 1918212653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 202
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444ed8ac7a7724167a7efd5b85c5aad6
+      internalID: -1165694712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_66
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 205
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a30a8c1939d2abcafb380f8b574ffc
+      internalID: -2015793476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 202
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d4e460a37e920dc8a5cbd3631b9815
+      internalID: -1459570139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_68
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 205
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb18d52d48375ab1bd70e56a307cf97
+      internalID: -489251963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_69
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 202
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bbe1c93ad688f969683e9f0b444036
+      internalID: 427055780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_70
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 205
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcdaaa0d3d4396df82b5a33fc155c27
+      internalID: 1318186591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_71
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 202
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c36de274660626e839d4c716efe542
+      internalID: -845061087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_72
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 205
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8d7fbbc93c4cad9aee10acefcaf791
+      internalID: 352987752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_73
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 202
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f9a4c1c176e60ee9dabd5278de721c
+      internalID: -1850522913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_74
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 205
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6498cd986e9491a16a0a652ee7223ec1
+      internalID: 2082653288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_75
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 202
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e081171af2e91a4aefc96fb12c963f
+      internalID: -1671570889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_76
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 205
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8250b24d5e930217ad2d7309ce49beb
+      internalID: -953100882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_77
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 202
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a74d5e794fc2a07fa4c85a9b6e13eee
+      internalID: -1826555188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_78
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 202
+        width: 46
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c671a7d9c39ac1b9cfa804762ac66b
+      internalID: 273840760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_79
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 202
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f572ad77de0b2c22a88fdb5308b1116e
+      internalID: -1907821636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_80
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 202
+        width: 46
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c837504dfda5277bb0748da053b723c
+      internalID: 134473104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_81
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 202
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed21f4a3f2a1f5067b9b6deee4a25901
+      internalID: -410356556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_82
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 202
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0631e025c65f81ac994fa5196eb74282
+      internalID: 2133157543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_83
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 205
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198f39a0a3fdd270abf179145a7a76a4
+      internalID: -2105964120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_84
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 202
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80985afd9c94816bfbeff8f442222a83
+      internalID: 1027525838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_85
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 202
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f10cbbce4f4e9fb48626df88968c46a
+      internalID: 126917935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_86
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 202
+        width: 46
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928a4dd82e26d70cfa897aef5a9bd1c3
+      internalID: 1728216433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_87
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 202
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febc0a41be1d1ef3894514df4ca004c2
+      internalID: 370258868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_88
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 178
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0134dae37a3a2ff0595d6e8f766fcd4d
+      internalID: 663313889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 179
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a9d30841ef84a15baccc4d5817097e
+      internalID: 1818548771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_90
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 178
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3601b829495f6db957ed46cdc36a00
+      internalID: 906190051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_91
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 178
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c283a80346d88274a70d65e9878c14d
+      internalID: 1451634019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_92
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 178
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142adb0cbde43b4fe832a697523ca794
+      internalID: -71925899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 179
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efc8f46330935a04a2bb022bee37fdb
+      internalID: 1526828433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_94
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 178
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37962df12b0b69986bba176f533d572f
+      internalID: -1345751010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_95
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 178
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5a06e77a99f424380ae193ee03ea56
+      internalID: 912913707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_96
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 178
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce1a9e1a1e362025a890fce51cedc8f
+      internalID: 2008885237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_97
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 178
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9ff663c97c8a72cb241ff4352abc8d
+      internalID: 735722738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_98
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 178
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ac02191ab65d0f5a136f53234daa0b
+      internalID: 2088599764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_99
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 178
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3298c4728066f9c77a90268fd195f8e1
+      internalID: 1761919177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_100
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 178
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ec9cd59ec41ead3af40223b0fb3065
+      internalID: 1826070251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_101
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 178
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b813aa543dbbcf59891a395a689a32ee
+      internalID: -1711699678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_102
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 178
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abf11af215e34a83a806e2b0a8ea714
+      internalID: 2076727861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_103
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 161
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7d3c43b2fcd31afba6e1324d9b7b5b
+      internalID: 1990481592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_104
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 175
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5a0ef91856be0d1b4a2700234c3080
+      internalID: -1226971973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_105
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 178
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56a75298fe1b1916846bdc8bf30fea9
+      internalID: -1825009957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_106
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 173
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea325a5bc3708847fb6a4232bb98631c
+      internalID: -1535548798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_107
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 175
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a721d591727996a87628f60904c8a1
+      internalID: 1466251251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_108
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 178
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8f384ddb2acf40f9b2e3878cc6ec00
+      internalID: 1027342249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_109
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 175
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29004bc5b3b84a20b703a3a0279870d
+      internalID: -1013728385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_110
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 178
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ddabb1580100472b7052fc16840fbd
+      internalID: -2047128294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_111
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 178
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e3d661e008d9268b706658574ec8cd
+      internalID: -1064217275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_112
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 178
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fad63a7c6de7d279d42989c7db6832
+      internalID: 1043713676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_113
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 173
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751af5de5da9c463eb19ebc3806a5ca2
+      internalID: -621880912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_114
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 173
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fe08a39a048486fbf13b0a7881147a
+      internalID: -956590037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_115
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 154
+        width: 63
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6be48a9f9db3e0bb9403988ea0b9b72
+      internalID: -1034552520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_116
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 98
+        width: 365
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0fbda9d29a9773580cad720983c0dc
+      internalID: -698151960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_117
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 154
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fe71883ef0dd2759336f38303529f2
+      internalID: 1788269672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_118
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 154
+        width: 63
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ebac8169802f2868feca0bb58bb1d0
+      internalID: -398468820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_119
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 154
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6ef6046c0ebc25681e8c584c841c55
+      internalID: 1865660381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_120
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 98
+        width: 205
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754d6aa6514c6676eabd665ae602ebaf
+      internalID: 305767366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_121
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 154
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20756e6a7a961f7fc916fd46930896f6
+      internalID: -1156564104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_122
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 154
+        width: 60
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19493abf316636782a42f281697046b3
+      internalID: 1240475218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_123
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 154
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b148cda0dab404599922120d2716a3
+      internalID: -854769560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_124
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 154
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84982c6c76f4cfbdcb9852eea1193efd
+      internalID: 235133993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_125
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 157
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bc9bd00ca3704359f3fa6fb5b07053
+      internalID: -1308831367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_126
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 154
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c1626f159eafbfca034247060b4797
+      internalID: 682518350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_127
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 157
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e177fbb98dbe39a9d3916c9c2623a1
+      internalID: 1246525281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_128
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 154
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2d0bd11def250dcaefaafdafbe7065
+      internalID: 743883819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_129
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 154
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4fbbdc4ef385a8d9ded820d4e8cbb6
+      internalID: 1457487028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_130
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 157
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bc2b9775c7e52348c90df559fb190d
+      internalID: -522177772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_131
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 154
+        width: 63
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600509f376f2deef28ab00520e4c0387
+      internalID: -1327564213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_132
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 154
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bbd95c3422c9258b45a627119838c8
+      internalID: -1545307198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_133
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 98
+        width: 192
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab26ae4ae52c7d7188d9e373fb15567a
+      internalID: -1118923365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_134
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 98
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b580d605a35f109ff83e61a3bd5a377b
+      internalID: 156116685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_135
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 98
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc446f8d40da397ebe4db4ff407aced
+      internalID: 820300882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_136
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 98
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496d6637d08d17cd383b1a2c05be46f4
+      internalID: -404908498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_137
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 98
+        width: 522
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5643fa0db64018579dd4e7909a92bff
+      internalID: 2028101272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_138
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 98
+        width: 126
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82f3ef61647c15b0b903a40ee57eaf6
+      internalID: -1750202383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_139
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 98
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d89af1ffd40494ea120b553ff2da94
+      internalID: 734228241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_140
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 98
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2df3a19eb4b515dbda2358fd8d0c5a
+      internalID: -1735225397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_141
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 74
+        width: 1792
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1769c814aa9930ac29e984ad423ade97
+      internalID: 1995648449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_142
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 1792
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d87fc5b818fea8a822dc414775d200
+      internalID: 1342135627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_0: 977614409
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_1: 1131365321
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_10: 1418238903
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_100: 1826070251
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_101: -1711699678
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_102: 2076727861
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_103: 1990481592
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_104: -1226971973
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_105: -1825009957
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_106: -1535548798
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_107: 1466251251
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_108: 1027342249
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_109: -1013728385
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_11: 942299045
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_110: -2047128294
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_111: -1064217275
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_112: 1043713676
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_113: -621880912
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_114: -956590037
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_115: -1034552520
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_116: -698151960
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_117: 1788269672
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_118: -398468820
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_119: 1865660381
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_12: -159009790
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_120: 305767366
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_121: -1156564104
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_122: 1240475218
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_123: -854769560
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_124: 235133993
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_125: -1308831367
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_126: 682518350
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_127: 1246525281
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_128: 743883819
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_129: 1457487028
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_13: 1093122834
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_130: -522177772
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_131: -1327564213
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_132: -1545307198
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_133: -1118923365
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_134: 156116685
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_135: 820300882
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_136: -404908498
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_137: 2028101272
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_138: -1750202383
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_139: 734228241
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_14: 279559764
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_140: -1735225397
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_141: 1995648449
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_142: 1342135627
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_15: 229487104
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_16: 103825837
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_17: -1587010056
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_18: -1200407055
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_19: 185284941
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_2: -1263772737
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_20: 902128659
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_21: -994040296
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_22: 1278704367
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_23: -1654617619
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_24: -1433779917
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_25: -693146061
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_26: -197813470
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_27: -920080954
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_28: -727696422
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_29: 1598200540
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_3: 389557323
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_30: 305620140
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_31: 2103676295
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_32: -469753861
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_33: 639343361
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_34: 1789810205
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_35: 342918502
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_36: -1514228878
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_37: -943925384
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_38: -351574208
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_39: -38353166
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_4: -1650834648
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_40: 1981928948
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_41: 584304247
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_42: 1090548499
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_43: -1456662389
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_44: -97288316
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_45: -1906393430
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_46: -820778970
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_47: 867425834
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_48: 1271507861
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_49: -432343854
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_5: 1838308460
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_50: -59346063
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_51: -1065012895
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_52: 1217715923
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_53: 159497345
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_54: -70099040
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_55: 40823554
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_56: -1600583827
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_57: -1109008215
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_58: -1603230141
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_59: 2043723443
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_6: -159594305
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_60: -1498109179
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_61: 180349078
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_62: -746673830
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_63: -415601330
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_64: 1918212653
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_65: -1165694712
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_66: -2015793476
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_67: -1459570139
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_68: -489251963
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_69: 427055780
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_7: 71974849
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_70: 1318186591
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_71: -845061087
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_72: 352987752
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_73: -1850522913
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_74: 2082653288
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_75: -1671570889
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_76: -953100882
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_77: -1826555188
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_78: 273840760
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_79: -1907821636
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_8: 2111232330
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_80: 134473104
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_81: -410356556
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_82: 2133157543
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_83: -2105964120
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_84: 1027525838
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_85: 126917935
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_86: 1728216433
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_87: 370258868
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_88: 663313889
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_89: 1818548771
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_9: 271954566
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_90: 906190051
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_91: 1451634019
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_92: -71925899
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_93: 1526828433
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_94: -1345751010
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_95: 912913707
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_96: 2008885237
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_97: 735722738
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_98: 2088599764
+      Sega CD - Sonic the Hedgehog CD - Palmtree Panic Zone 1 Good Future_99: 1761919177
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
