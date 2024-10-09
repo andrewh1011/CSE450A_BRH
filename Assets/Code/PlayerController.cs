@@ -11,6 +11,7 @@ namespace Code {
         public Transform aimPivot;
         public GameObject projectilePrefab;
         SpriteRenderer sprite;
+        Animator animator;
 
         //Gamepad Configuration:
 
@@ -35,6 +36,21 @@ namespace Code {
         void Start() {
             _rigidbody = GetComponent<Rigidbody2D>();
             sprite = GetComponent<SpriteRenderer>();
+            animator = GetComponent<Animator>();
+        }
+
+        void FixedUpdate()
+        {
+            animator.SetFloat("Speed", _rigidbody.velocity.magnitude);
+
+            if (_rigidbody.velocity.magnitude > 0)
+            {
+                animator.speed = _rigidbody.velocity.magnitude / 3f;
+            }
+            else
+            {
+                animator.speed = 1f;
+            }
         }
 
         // Update is called once per frame
@@ -102,6 +118,8 @@ namespace Code {
                 newProjectile.transform.position = transform.position;
                 newProjectile.transform.rotation = aimPivot.rotation;
             }
+
+            animator.SetInteger("jumpsLeft", jumpsLeft);
         }
 
         void OnCollisionStay2D(Collision2D other) {
