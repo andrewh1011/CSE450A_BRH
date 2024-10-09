@@ -45,7 +45,7 @@ namespace Code {
 
             if (_rigidbody.velocity.magnitude > 0)
             {
-                animator.speed = _rigidbody.velocity.magnitude / 3f;
+                animator.speed = _rigidbody.velocity.magnitude / 4f;
             }
             else
             {
