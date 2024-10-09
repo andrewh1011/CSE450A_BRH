@@ -10,9 +10,10 @@ namespace Code {
         Rigidbody2D _rigidbody;
         public Transform aimPivot;
         public GameObject projectilePrefab;
-        
+        SpriteRenderer sprite;
+
         //Gamepad Configuration:
-        
+
 
         // State Tracking
         public int jumpsLeft;
@@ -33,6 +34,7 @@ namespace Code {
         // Start is called before the first frame update
         void Start() {
             _rigidbody = GetComponent<Rigidbody2D>();
+            sprite = GetComponent<SpriteRenderer>();
         }
 
         // Update is called once per frame
@@ -42,12 +44,15 @@ namespace Code {
                 if (Input.GetKey(KeyCode.A)) {
                     _rigidbody.AddForce(Vector2.left * 18f * Time.deltaTime, ForceMode2D.Impulse);
                     dashDirection = DashDirection.Left;
+                    sprite.flipX = true;
+
                 }
 
                 //Move player right (D key)
                 if (Input.GetKey(KeyCode.D)) {
                     _rigidbody.AddForce(Vector2.right * 18f * Time.deltaTime, ForceMode2D.Impulse);
                     dashDirection = DashDirection.Right;
+                    sprite.flipX = false;
                 }
             }
 
