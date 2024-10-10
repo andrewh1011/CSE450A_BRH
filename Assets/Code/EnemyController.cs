@@ -12,11 +12,8 @@ namespace Code
             //Reload the scene when colliding with player
             if (collision.gameObject.GetComponent<PlayerController>())
             {
-                if (collision.gameObject.tag == "Player")
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                }
-               
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
             }
 
             // Kill the enemy if colliding with the player projectile
