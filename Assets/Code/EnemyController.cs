@@ -34,6 +34,18 @@ namespace Code
             return transform.localScale.x > Mathf.Epsilon;
         }
 
+
+        //From https://www.youtube.com/watch?v=MPnN9i1SD6g
+        void OnTriggerExit2D(Collider2D collision)
+        {
+            if (collision.gameObject.layer != LayerMask.NameToLayer("Player"))
+            {
+                transform.localScale = new Vector2((-Mathf.Sign(rb.velocity.x)), transform.localScale.y);
+            }
+            
+        }
+
+
         void OnCollisionEnter2D(Collision2D collision)
         {
             //Reload the scene when colliding with player
@@ -48,12 +60,6 @@ namespace Code
             {
                 Destroy(gameObject);
             }
-        }
-
-        //From https://www.youtube.com/watch?v=MPnN9i1SD6g
-        void OnTriggerExit2D(Collider2D collision)
-        {
-            transform.localScale = new Vector2((-Mathf.Sign(rb.velocity.x)), transform.localScale.y);
         }
     }
 
