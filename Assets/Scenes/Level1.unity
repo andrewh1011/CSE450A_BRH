@@ -290,7 +290,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 5919754526698378586, guid: 6cb146471b72b4487b9b89a980005f25, type: 3}
   jumpsLeft: 1
   dashesLeft: 0
-  dashSpeed: 50
+  dashSpeed: 15
   dashDuration: 0.2
   dashTimer: 0
 --- !u!95 &122895589

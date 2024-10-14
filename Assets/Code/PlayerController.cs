@@ -37,6 +37,8 @@ namespace Code {
             _rigidbody = GetComponent<Rigidbody2D>();
             sprite = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+
+            dashDirection = DashDirection.Right;
         }
 
         void FixedUpdate()
