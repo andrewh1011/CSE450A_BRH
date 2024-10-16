@@ -12,6 +12,7 @@ namespace Code {
         public GameObject projectilePrefab;
         SpriteRenderer sprite;
         Animator animator;
+        public GameObject launcher;
 
         //Gamepad Configuration:
 
@@ -57,6 +58,8 @@ namespace Code {
 
         // Update is called once per frame
         void Update() {
+            RotateGun();
+
             if (dashTimer <= 0) {
                 //Move player left (A key)
                 if (Input.GetKey(KeyCode.A)) {
@@ -141,6 +144,7 @@ namespace Code {
                     if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Ground")) {
                         jumpsLeft = 1;
                         dashesLeft = 1;
+                        dashTimer = 0f;
                     }
                 }
             }
@@ -152,5 +156,30 @@ namespace Code {
                 Destroy(collision.gameObject.transform.parent.gameObject);
             }
         }
+
+        void RotateGun()
+        {
+            //Rotate gun to mouse position
+            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            Vector2 launcherToMouse = (mousePosition - (Vector2)launcher.transform.position).normalized;
+            launcher.transform.right = launcherToMouse;
+
+            //Flips run if looking behind
+            float launcherAngle = Mathf.Atan2(launcherToMouse.y, launcherToMouse.x) * Mathf.Rad2Deg;
+
+            Vector3 localScale = new Vector3(0.6f, 0.6f, 0.6f);
+            if (launcherAngle > 90 || launcherAngle < -90)
+            {
+                localScale.y = -0.6f;
+            }
+            else
+            {
+                localScale.y = 0.6f;
+            }
+
+            launcher.transform.localScale = localScale;
+        }
     }
+
+ 
 }

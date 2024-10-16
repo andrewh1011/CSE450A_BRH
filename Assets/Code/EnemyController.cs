@@ -55,7 +55,7 @@ namespace Code
 
             }
 
-            // Kill the enemy if colliding with the player projectile
+            // Kill the enemy if colliding with the projectile
             if (collision.gameObject.GetComponent<Projectile>())
             {
                 Destroy(gameObject);

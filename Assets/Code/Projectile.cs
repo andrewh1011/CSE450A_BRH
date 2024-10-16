@@ -8,12 +8,15 @@ namespace Code
     {
         //Outlet
         Rigidbody2D _rigidbody2D;
+        Rigidbody2D _playerRB;
+        public float speed;
 
         // Start is called before the first frame update
         void Start()
         {
+            _playerRB = GameObject.Find("Player").GetComponent<Rigidbody2D>();
             _rigidbody2D = GetComponent<Rigidbody2D>();
-            _rigidbody2D.velocity = transform.right * 10f;
+            _rigidbody2D.velocity = transform.right * speed + (Vector3)_playerRB.velocity / 2;
             Destroy(gameObject, 10f);
         }
 
