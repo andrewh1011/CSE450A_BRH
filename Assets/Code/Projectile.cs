@@ -9,6 +9,7 @@ namespace Code
         //Outlet
         Rigidbody2D _rigidbody2D;
         Rigidbody2D _playerRB;
+        public GameObject explosionPrefab;
         public float speed;
 
         // Start is called before the first frame update
@@ -40,6 +41,12 @@ namespace Code
             }
 
             Destroy(gameObject);
+
+            GameObject explosion = Instantiate(
+                explosionPrefab, transform.position, Quaternion.identity
+                );
+
+            Destroy(explosion, 0.25f);
         }
     }
 
