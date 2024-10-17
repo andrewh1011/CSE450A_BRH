@@ -28,6 +28,17 @@ namespace Code
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
+            if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy")) {
+                if (collision.gameObject.tag == "Head")
+                {
+                    Destroy(collision.gameObject.transform.parent.gameObject);
+                }
+                else
+                {
+                    Destroy(collision.gameObject);
+                }
+            }
+
             Destroy(gameObject);
         }
     }

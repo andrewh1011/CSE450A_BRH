@@ -153,6 +153,9 @@ namespace Code {
         {
             if (collision.gameObject.tag == "Head")
             {
+                jumpsLeft = 1;
+                dashesLeft = 1;
+                dashTimer = 0f;
                 Destroy(collision.gameObject.transform.parent.gameObject);
             }
         }
