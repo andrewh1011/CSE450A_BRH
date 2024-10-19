@@ -10,13 +10,11 @@ namespace Code {
         Rigidbody2D _rb;
 
         // State Tracking
-        float appearanceTime = 10f;
         float arrowSpeed = 1f;
         Vector2 direction;
 
         void Start() {
             _rb = GetComponent<Rigidbody2D>();
-            StartCoroutine(Despawn(appearanceTime));
             AimAtPlayer();
         }
 
@@ -37,10 +35,7 @@ namespace Code {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
             }
-        }
 
-        IEnumerator Despawn(float time) {
-            yield return new WaitForSeconds(time);
             Destroy(gameObject);
         }
     }
