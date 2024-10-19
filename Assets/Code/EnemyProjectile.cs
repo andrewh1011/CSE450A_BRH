@@ -10,7 +10,7 @@ namespace Code {
         Rigidbody2D _rb;
 
         // State Tracking
-        float arrowSpeed = 1f;
+        float arrowSpeed = 2f;
         Vector2 direction;
 
         void Start() {
