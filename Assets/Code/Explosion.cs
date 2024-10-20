@@ -16,7 +16,8 @@ public class Explosion : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
+
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {

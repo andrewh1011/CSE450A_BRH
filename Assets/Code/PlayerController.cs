@@ -150,7 +150,20 @@ namespace Code {
             }
         }
         private void OnCollisionEnter2D(Collision2D collision)
+
         {
+            //From https://discussions.unity.com/t/push-object-in-opposite-direction-of-collision/153430
+            if (collision.gameObject.layer == LayerMask.NameToLayer("PlayerProjectile"))
+            {
+                // Calculate Angle Between the collision point and the player
+                Vector3 direction = collision.contacts[0].point - (Vector2)transform.position;
+                // We then get the opposite (-Vector3) and normalize it
+                direction = -direction.normalized;
+                // And finally we add force in the direction of dir and multiply it by force. 
+                // This will push back the player
+                _rigidbody.AddForce(direction * 8f, ForceMode2D.Impulse);
+            }
+
             if (collision.gameObject.tag == "Head")
             {
                 jumpsLeft = 1;
