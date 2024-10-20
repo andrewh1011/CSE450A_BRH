@@ -23,6 +23,7 @@ public class Explosion : MonoBehaviour
         {
             if (collision.gameObject.tag == "Head")
             {
+                //If the head was hit, destroy the entire parent enemy object
                 Destroy(collision.gameObject.transform.parent.gameObject);
             }
             else
