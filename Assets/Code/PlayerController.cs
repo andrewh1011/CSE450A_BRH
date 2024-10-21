@@ -102,15 +102,16 @@ namespace Code {
 
                 // End dash
                 if (dashTimer <= 0) {
-                    if (dashDirection == DashDirection.Left)
-                    {
-                        _rigidbody.AddForce(Vector2.left * 18f * Time.deltaTime, ForceMode2D.Impulse);
-                    }
-                    else if (dashDirection == DashDirection.Right)
-                    {
-                        _rigidbody.AddForce(Vector2.right * 18f * Time.deltaTime, ForceMode2D.Impulse);
-                    }
-                    dashesLeft--;
+                    _rigidbody.velocity = Vector2.zero;
+                    //if (dashDirection == DashDirection.Left)
+                    //{
+                    //    _rigidbody.AddForce(Vector2.left * 18f * Time.deltaTime, ForceMode2D.Impulse);
+                    //}
+                    //else if (dashDirection == DashDirection.Right)
+                    //{
+                    //    _rigidbody.AddForce(Vector2.right * 18f * Time.deltaTime, ForceMode2D.Impulse);
+                    //}
+                    //dashesLeft--;
                 }
             }
 
