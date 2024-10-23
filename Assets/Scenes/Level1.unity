@@ -316,7 +316,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1001 &273406268
+--- !u!1001 &385401954
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -326,11 +326,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5497778881427160534, guid: 4f4b995b2a2df4f2bbfea8c636161c83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17
+      value: -2.491044
       objectReference: {fileID: 0}
     - target: {fileID: 5497778881427160534, guid: 4f4b995b2a2df4f2bbfea8c636161c83, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5
+      value: -5.4976234
       objectReference: {fileID: 0}
     - target: {fileID: 5497778881427160534, guid: 4f4b995b2a2df4f2bbfea8c636161c83, type: 3}
       propertyPath: m_LocalPosition.z
@@ -366,7 +366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5928651210180371070, guid: 4f4b995b2a2df4f2bbfea8c636161c83, type: 3}
       propertyPath: m_Name
-      value: Goomba
+      value: Goomba_5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -594,6 +594,7 @@ GameObject:
   - component: {fileID: 445354113}
   - component: {fileID: 445354115}
   - component: {fileID: 445354114}
+  - component: {fileID: 445354116}
   m_Layer: 0
   m_Name: Background_TileMap_Color
   m_TagString: Untagged
@@ -13681,6 +13682,27 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!95 &445354116
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445354112}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b0c6c118d9ce4b86a590eabed5b33ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &489637092
 GameObject:
   m_ObjectHideFlags: 0
@@ -13784,7 +13806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7748755870777581480, guid: 860facad5a97346cc872eec601edb4f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54
+      value: 53.66
       objectReference: {fileID: 0}
     - target: {fileID: 7748755870777581480, guid: 860facad5a97346cc872eec601edb4f3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14343,11 +14365,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7748755870777581480, guid: 860facad5a97346cc872eec601edb4f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27
+      value: 28.08
       objectReference: {fileID: 0}
     - target: {fileID: 7748755870777581480, guid: 860facad5a97346cc872eec601edb4f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.75
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 7748755870777581480, guid: 860facad5a97346cc872eec601edb4f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15929,7 +15951,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 21.005295, y: -6.6563206}
+  m_Offset: {x: 21.115997, y: -6.9109335}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -15940,7 +15962,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5654831, y: 3.1260056}
+  m_Size: {x: 0.7868881, y: 2.6167789}
   m_EdgeRadius: 0
 --- !u!1 &1923351438
 GameObject:
@@ -24359,11 +24381,11 @@ SceneRoots:
   - {fileID: 511205576}
   - {fileID: 496370959}
   - {fileID: 1884998956}
-  - {fileID: 273406268}
   - {fileID: 1493200021}
   - {fileID: 692297676}
   - {fileID: 928917616}
   - {fileID: 1478947887}
+  - {fileID: 385401954}
   - {fileID: 3785460635946925635}
   - {fileID: 1059132594}
   - {fileID: 1497385403}
