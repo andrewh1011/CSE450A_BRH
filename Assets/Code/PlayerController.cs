@@ -13,6 +13,8 @@ namespace Code {
         SpriteRenderer sprite;
         Animator animator;
         public GameObject launcher;
+        public float gravityScale;
+        public float gravityMultiplier;
 
         //Gamepad Configuration:
 
@@ -40,6 +42,8 @@ namespace Code {
             animator = GetComponent<Animator>();
 
             dashDirection = DashDirection.Right;
+
+            _rigidbody.gravityScale = gravityScale;
         }
 
         void FixedUpdate()
@@ -81,11 +85,23 @@ namespace Code {
             if (Input.GetKeyDown(KeyCode.Space)) {
                 if (jumpsLeft >= 1) {
                     jumpsLeft--;
-                    _rigidbody.AddForce(Vector2.up * 15f, ForceMode2D.Impulse);
+                    _rigidbody.AddForce(Vector2.up * 16f, ForceMode2D.Impulse);
                 }
                 else if (jumpsLeft == 0 && dashTimer <= 0) {
                         
                     dashTimer = dashDuration;
+                }
+            }
+
+            if (jumpsLeft == 0)
+            {
+                if (_rigidbody.velocity.y < 0)
+                {
+                    //Increase gravity scale when falling
+                    _rigidbody.gravityScale = gravityScale * gravityMultiplier;
+                } else
+                {
+                    _rigidbody.gravityScale = gravityScale;
                 }
             }
 
@@ -143,6 +159,7 @@ namespace Code {
                     RaycastHit2D hit = hits[i];
 
                     if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Ground")) {
+                        _rigidbody.gravityScale = gravityScale;
                         jumpsLeft = 1;
                         dashesLeft = 1;
                         dashTimer = 0f;
@@ -167,6 +184,7 @@ namespace Code {
 
             if (collision.gameObject.tag == "Head")
             {
+                _rigidbody.gravityScale = gravityScale;
                 jumpsLeft = 1;
                 dashesLeft = 1;
                 dashTimer = 0f;
