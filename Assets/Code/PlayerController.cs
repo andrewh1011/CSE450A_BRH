@@ -7,14 +7,22 @@ using UnityEngine.InputSystem;
 namespace Code {
     public class PlayerController : MonoBehaviour {
         //Outlet
-        Rigidbody2D _rigidbody;
         public Transform aimPivot;
         public GameObject projectilePrefab;
         SpriteRenderer sprite;
         Animator animator;
         public GameObject launcher;
+        Rigidbody2D _rigidbody;
+
+        //Movement
         public float gravityScale;
         public float gravityMultiplier;
+        public float jumpForce;
+
+        //Jump Cut Variables
+        public float jumpTime;
+        private float jumpTimeCounter;
+        private bool isJumping;
 
         //Gamepad Configuration:
 
@@ -62,7 +70,7 @@ namespace Code {
 
         // Update is called once per frame
         void Update() {
-            RotateGun();
+            RotateLauncher();
 
             if (dashTimer <= 0) {
                 //Move player left (A key)
@@ -84,8 +92,11 @@ namespace Code {
             //Jump
             if (Input.GetKeyDown(KeyCode.Space)) {
                 if (jumpsLeft >= 1) {
+                    isJumping = true;
                     jumpsLeft--;
-                    _rigidbody.AddForce(Vector2.up * 16f, ForceMode2D.Impulse);
+                    jumpTimeCounter = jumpTime;
+                    //_rigidbody.AddForce(Vector2.up * 16f, ForceMode2D.Impulse);
+                    _rigidbody.velocity = Vector2.up * jumpForce;
                 }
                 else if (jumpsLeft == 0 && dashTimer <= 0) {
                         
@@ -93,11 +104,31 @@ namespace Code {
                 }
             }
 
+            //From https://www.youtube.com/watch?v=j111eKN8sJw, Jump cut
+            if (Input.GetKey(KeyCode.Space) && isJumping)
+            {
+                if (jumpTimeCounter > 0)
+                {
+                    _rigidbody.velocity = Vector2.up * jumpForce;
+                    jumpTimeCounter -= Time.deltaTime;
+                } else
+                {
+                    isJumping = false;
+                }
+                
+            }
+
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                isJumping = false;
+            }
+
+            //Increase gravity scale when falling
             if (jumpsLeft == 0)
             {
                 if (_rigidbody.velocity.y < 0)
                 {
-                    //Increase gravity scale when falling
+                 
                     _rigidbody.gravityScale = gravityScale * gravityMultiplier;
                 } else
                 {
@@ -192,7 +223,7 @@ namespace Code {
             }
         }
 
-        void RotateGun()
+        void RotateLauncher()
         {
             //Rotate gun to mouse position
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
