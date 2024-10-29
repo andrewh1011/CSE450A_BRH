@@ -292,7 +292,7 @@ MonoBehaviour:
   launcher: {fileID: 714671904}
   gravityScale: 2.3
   gravityMultiplier: 2
-  jumpForce: 13
+  jumpForce: 13.5
   jumpTime: 0.2
   jumpsLeft: 1
   dashesLeft: 0

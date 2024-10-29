@@ -61,7 +61,7 @@ namespace Code {
 
             if (_rigidbody.velocity.magnitude > 0)
             {
-                animator.speed = _rigidbody.velocity.magnitude / 5f;
+                animator.speed = _rigidbody.velocity.magnitude / 4f;
             }
             else
             {
@@ -76,7 +76,7 @@ namespace Code {
             if (dashTimer <= 0) {
                 //Move player left (A key)
                 if (Input.GetKey(KeyCode.A)) {
-                    _rigidbody.AddForce(Vector2.left * 18f * Time.deltaTime, ForceMode2D.Impulse);
+                    _rigidbody.AddForce(Vector2.left * 22f * Time.deltaTime, ForceMode2D.Impulse);
                     dashDirection = DashDirection.Left;
                     sprite.flipX = true;
 
@@ -84,7 +84,7 @@ namespace Code {
 
                 //Move player right (D key)
                 if (Input.GetKey(KeyCode.D)) {
-                    _rigidbody.AddForce(Vector2.right * 18f * Time.deltaTime, ForceMode2D.Impulse);
+                    _rigidbody.AddForce(Vector2.right * 22f * Time.deltaTime, ForceMode2D.Impulse);
                     dashDirection = DashDirection.Right;
                     sprite.flipX = false;
                 }
@@ -105,7 +105,7 @@ namespace Code {
                 }
             }
 
-            //From https://www.youtube.com/watch?v=j111eKN8sJw, Jump cut
+            //Jump cut, from https://www.youtube.com/watch?v=j111eKN8sJw
             if (Input.GetKey(KeyCode.Space) && isJumping)
             {
                 if (jumpTimeCounter > 0)
