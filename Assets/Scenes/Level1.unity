@@ -290,6 +290,10 @@ MonoBehaviour:
   aimPivot: {fileID: 1779571680}
   projectilePrefab: {fileID: 5919754526698378586, guid: 6cb146471b72b4487b9b89a980005f25, type: 3}
   launcher: {fileID: 714671904}
+  gravityScale: 2.3
+  gravityMultiplier: 2
+  jumpForce: 13
+  jumpTime: 0.2
   jumpsLeft: 1
   dashesLeft: 0
   dashSpeed: 30

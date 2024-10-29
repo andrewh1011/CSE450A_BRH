@@ -52,6 +52,7 @@ namespace Code {
             dashDirection = DashDirection.Right;
 
             _rigidbody.gravityScale = gravityScale;
+            isJumping = false;
         }
 
         void FixedUpdate()
@@ -60,7 +61,7 @@ namespace Code {
 
             if (_rigidbody.velocity.magnitude > 0)
             {
-                animator.speed = _rigidbody.velocity.magnitude / 4f;
+                animator.speed = _rigidbody.velocity.magnitude / 5f;
             }
             else
             {
@@ -95,8 +96,8 @@ namespace Code {
                     isJumping = true;
                     jumpsLeft--;
                     jumpTimeCounter = jumpTime;
-                    //_rigidbody.AddForce(Vector2.up * 16f, ForceMode2D.Impulse);
-                    _rigidbody.velocity = Vector2.up * jumpForce;
+                    _rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                    //_rigidbody.velocity += Vector2.up * jumpForce * Time.fixedDeltaTime;
                 }
                 else if (jumpsLeft == 0 && dashTimer <= 0) {
                         
@@ -109,7 +110,8 @@ namespace Code {
             {
                 if (jumpTimeCounter > 0)
                 {
-                    _rigidbody.velocity = Vector2.up * jumpForce;
+                    //_rigidbody.velocity += Vector2.up * jumpForce * Time.fixedDeltaTime;
+                    _rigidbody.AddForce(Vector2.up * (jumpForce/10) * Time.fixedDeltaTime, ForceMode2D.Impulse);
                     jumpTimeCounter -= Time.deltaTime;
                 } else
                 {
@@ -194,6 +196,7 @@ namespace Code {
                         jumpsLeft = 1;
                         dashesLeft = 1;
                         dashTimer = 0f;
+                        isJumping = false;
                     }
                 }
             }
