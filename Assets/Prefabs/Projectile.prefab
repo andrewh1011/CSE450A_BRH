@@ -162,4 +162,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 5494407650278283219, guid: 259392c6a4c8e4b209884e9ea94396db, type: 3}
-  speed: 25
+  speed: 27
