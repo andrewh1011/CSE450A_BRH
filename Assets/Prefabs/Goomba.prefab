@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5032822117102033307}
   - component: {fileID: 5133714601615878535}
   - component: {fileID: 1385258062958939413}
-  - component: {fileID: 267986407182766490}
   - component: {fileID: 5936504722923075424}
+  - component: {fileID: 3028771945727153283}
   m_Layer: 9
   m_Name: Goomba
   m_TagString: Untagged
@@ -162,19 +162,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &267986407182766490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5928651210180371070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 227a40aea2aab47d3a2032268be8d9c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
 --- !u!95 &5936504722923075424
 Animator:
   serializedVersion: 5
@@ -196,6 +183,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3028771945727153283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5928651210180371070}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227a40aea2aab47d3a2032268be8d9c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
 --- !u!1 &7255489177183297411
 GameObject:
   m_ObjectHideFlags: 0

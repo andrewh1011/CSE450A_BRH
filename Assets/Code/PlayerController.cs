@@ -19,6 +19,11 @@ namespace Code {
         public float gravityMultiplier;
         public float jumpForce;
 
+        public float recoil;
+        public float shootCooldown;
+        public float shootTimer;
+        public float shootOffset;
+
         //Jump Cut Variables
         public float jumpTime;
         private float jumpTimeCounter;
@@ -42,6 +47,7 @@ namespace Code {
         private DashDirection dashDirection;
         public float dashDuration;
         public float dashTimer;
+        
 
         // Start is called before the first frame update
         void Start() {
@@ -72,6 +78,10 @@ namespace Code {
         // Update is called once per frame
         void Update() {
             RotateLauncher();
+            
+            if(shootTimer > 0) {
+                shootTimer -= Time.deltaTime;
+            }
 
             if (dashTimer <= 0) {
                 //Move player left (A key)
@@ -99,9 +109,11 @@ namespace Code {
                     _rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                     //_rigidbody.velocity += Vector2.up * jumpForce * Time.fixedDeltaTime;
                 }
-                else if (jumpsLeft == 0 && dashTimer <= 0) {
+                else if (jumpsLeft == 0 && dashTimer <= 0 && dashesLeft >= 1) {
                         
                     dashTimer = dashDuration;
+
+                    dashesLeft--;
                 }
             }
 
@@ -139,7 +151,7 @@ namespace Code {
             }
 
             // Dash (used 2d dash tutorial https://generalistprogrammer.com/unity/unity-2d-dash-movement-effect-learn-to-how-to-tutorial/)
-            if (dashTimer > 0 && dashesLeft >= 1) {
+            if (dashTimer > 0) {
  
                 dashTimer -= Time.deltaTime;
                 if (dashDirection == DashDirection.Left) {
@@ -152,15 +164,6 @@ namespace Code {
                 // End dash
                 if (dashTimer <= 0) {
                     _rigidbody.velocity = Vector2.zero;
-                    //if (dashDirection == DashDirection.Left)
-                    //{
-                    //    _rigidbody.AddForce(Vector2.left * 18f * Time.deltaTime, ForceMode2D.Impulse);
-                    //}
-                    //else if (dashDirection == DashDirection.Right)
-                    //{
-                    //    _rigidbody.AddForce(Vector2.right * 18f * Time.deltaTime, ForceMode2D.Impulse);
-                    //}
-                    //dashesLeft--;
                 }
             }
 
@@ -175,10 +178,14 @@ namespace Code {
             aimPivot.rotation = Quaternion.Euler(0, 0, angleToMouse);
 
             //Shoot
-            if (Input.GetMouseButtonDown(0)) {
+            if (Input.GetMouseButtonDown(0) && shootTimer <= 0) {
                 GameObject newProjectile = Instantiate(projectilePrefab);
-                newProjectile.transform.position = transform.position;
+                newProjectile.transform.position = launcher.transform.position + launcher.transform.right * shootOffset;
                 newProjectile.transform.rotation = aimPivot.rotation;
+
+                _rigidbody.AddForce(-launcher.transform.right * recoil, ForceMode2D.Impulse);
+
+                shootTimer = shootCooldown;
             }
 
             animator.SetInteger("jumpsLeft", jumpsLeft);
@@ -186,19 +193,21 @@ namespace Code {
 
         void OnCollisionStay2D(Collision2D other) {
             if (other.gameObject.layer == LayerMask.NameToLayer("Ground")) {
-                RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, Vector2.down, 1.125f);
+                RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, Vector2.up, 1.125f);
 
                 for (int i = 0; i < hits.Length; i++) {
                     RaycastHit2D hit = hits[i];
 
                     if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Ground")) {
-                        _rigidbody.gravityScale = gravityScale;
-                        jumpsLeft = 1;
-                        dashesLeft = 1;
-                        dashTimer = 0f;
-                        isJumping = false;
+                        return;
                     }
                 }
+
+                _rigidbody.gravityScale = gravityScale;
+                jumpsLeft = 1;
+                dashesLeft = 1;
+                dashTimer = 0f;
+                isJumping = false;
             }
         }
         private void OnCollisionEnter2D(Collision2D collision)
