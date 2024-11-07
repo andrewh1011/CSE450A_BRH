@@ -103,6 +103,8 @@ namespace Code {
             //Jump
             if (Input.GetKeyDown(KeyCode.Space)) {
                 if (jumpsLeft >= 1) {
+                    SoundManager.instance.playJumpSound();
+                    
                     isJumping = true;
                     jumpsLeft--;
                     jumpTimeCounter = jumpTime;
@@ -110,7 +112,9 @@ namespace Code {
                     //_rigidbody.velocity += Vector2.up * jumpForce * Time.fixedDeltaTime;
                 }
                 else if (jumpsLeft == 0 && dashTimer <= 0 && dashesLeft >= 1) {
-                        
+
+                    SoundManager.instance.playDashSound();
+
                     dashTimer = dashDuration;
 
                     dashesLeft--;
@@ -123,7 +127,7 @@ namespace Code {
                 if (jumpTimeCounter > 0)
                 {
                     //_rigidbody.velocity += Vector2.up * jumpForce * Time.fixedDeltaTime;
-                    _rigidbody.AddForce(Vector2.up * (jumpForce/10) * Time.fixedDeltaTime, ForceMode2D.Impulse);
+                    _rigidbody.AddForce(Vector2.up * (jumpForce/5) * Time.fixedDeltaTime, ForceMode2D.Impulse);
                     jumpTimeCounter -= Time.deltaTime;
                 } else
                 {
@@ -227,6 +231,7 @@ namespace Code {
 
             if (collision.gameObject.tag == "Head")
             {
+                SoundManager.instance.playDeathSound();
                 _rigidbody.gravityScale = gravityScale;
                 jumpsLeft = 1;
                 dashesLeft = 1;

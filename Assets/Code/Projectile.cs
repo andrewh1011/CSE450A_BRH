@@ -19,6 +19,8 @@ namespace Code
             _rigidbody2D = GetComponent<Rigidbody2D>();
             _rigidbody2D.velocity = transform.right * speed + (Vector3)_playerRB.velocity / 2;
             Destroy(gameObject, 10f);
+
+            SoundManager.instance.playLaunchSound();
         }
 
         // Update is called once per frame
@@ -29,6 +31,7 @@ namespace Code
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
+            SoundManager.instance.playExplosionSound();
 
             Destroy(gameObject);
 
