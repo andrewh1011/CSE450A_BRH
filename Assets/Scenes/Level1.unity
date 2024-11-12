@@ -14130,7 +14130,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 96.99999, y: 0, z: -4.9999995}
+  m_LocalPosition: {x: 96.99999, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15229,7 +15229,7 @@ MonoBehaviour:
   m_Waypoints:
   - position: {x: 99, y: 0, z: -5}
     roll: 0
-  - position: {x: -24, y: 0, z: -5}
+  - position: {x: -5, y: 0, z: -5}
     roll: 0
 --- !u!4 &1334125708
 Transform:
@@ -15730,10 +15730,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virtualCamera: {fileID: 1422144060}
   dolly: {fileID: 0}
+  transposer: {fileID: 0}
   player: {fileID: 122895587}
   panDuration: 4
   delayDuration: 1
-  zoomDuration: 1
+  zoomDuration: 5
   panTimer: 0
   delayTimer: 0
   zoomTimer: 0
@@ -15790,7 +15791,7 @@ Transform:
   m_GameObject: {fileID: 1422144058}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 96.99999, y: 0, z: -4.9999995}
+  m_LocalPosition: {x: 96.99999, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

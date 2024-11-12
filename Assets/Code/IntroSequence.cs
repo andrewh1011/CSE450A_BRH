@@ -7,6 +7,7 @@ namespace Code {
     public class IntroSequence : MonoBehaviour {
         public CinemachineVirtualCamera virtualCamera;
         public CinemachineTrackedDolly dolly;
+        public CinemachineFramingTransposer transposer;
         public Transform player;
         public float panDuration;
         public float delayDuration;
@@ -21,11 +22,14 @@ namespace Code {
         public float endLensSize;
 
         private void Start() {
-           dolly = virtualCamera.GetCinemachineComponent<CinemachineTrackedDolly>();
-           dolly.m_PathPosition = 0;
+            dolly = virtualCamera.GetCinemachineComponent<CinemachineTrackedDolly>();
+            dolly.enabled = true;
+            dolly.m_PathPosition = 0;
         }
 
         private void Update() {
+            Debug.Log($"Camera Position: {virtualCamera.transform.position}");
+
             if (!delayComplete) {
                 delayTimer += Time.deltaTime;
                 if (delayTimer >= delayDuration) {
@@ -34,17 +38,29 @@ namespace Code {
                 return;
             }
 
-            if (!panComplete) {
+            if (!panComplete & delayComplete) {
                 panTimer += Time.deltaTime;
                 float progress = panTimer / panDuration;
-
                 dolly.m_PathPosition = progress * 123f;
 
                 if (progress >= 1) {
                     panComplete = true;
-                    virtualCamera.GetCinemachineComponent<CinemachineTrackedDolly>().enabled = false;
-                    var transposer = virtualCamera.AddCinemachineComponent<CinemachineFramingTransposer>();
+                    Vector3 finalCameraPosition = virtualCamera.transform.position;
+                    dolly.enabled = false;
+
+
+                    transposer = virtualCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
+                    if (transposer == null) {
+                        transposer = virtualCamera.AddCinemachineComponent<CinemachineFramingTransposer>();
+                    }
+
+                    transposer.m_XDamping = 1f;  // Adjust damping values to smooth transition
+                    transposer.m_YDamping = 1f;
+                    transposer.m_ZDamping = 1f;
+
                     transposer.enabled = true;
+
+                    virtualCamera.transform.position = finalCameraPosition;
                     virtualCamera.Follow = player;
                 }
             }

@@ -253,7 +253,7 @@ namespace Code {
             //Flips run if looking behind
             float launcherAngle = Mathf.Atan2(launcherToMouse.y, launcherToMouse.x) * Mathf.Rad2Deg;
 
-            Debug.Log($"Mouse World Pos: {mousePosition}, LauncherToMouse: {launcherToMouse}, Angle: {launcherAngle}");
+            //Debug.Log($"Mouse World Pos: {mousePosition}, LauncherToMouse: {launcherToMouse}, Angle: {launcherAngle}");
 
             Vector3 localScale = new Vector3(0.6f, 0.6f, 0.6f);
             if (launcherAngle > 90 || launcherAngle < -90)
