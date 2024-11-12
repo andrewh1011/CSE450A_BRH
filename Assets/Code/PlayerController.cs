@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -172,9 +173,8 @@ namespace Code {
             }
 
             //Aim toward mouse
-            Vector3 mousePosition = Input.mousePosition;
-            Vector3 mousePositionInWorld = Camera.main.ScreenToWorldPoint(mousePosition);
-            Vector3 directionFromPlayerToMouse = mousePositionInWorld - transform.position;
+            Vector2 mousePosition = CinemachineCore.Instance.GetActiveBrain(0).OutputCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            Vector3 directionFromPlayerToMouse = mousePosition - (Vector2)transform.position;
 
             float radiansToMouse = Mathf.Atan2(directionFromPlayerToMouse.y, directionFromPlayerToMouse.x);
             float angleToMouse = radiansToMouse * Mathf.Rad2Deg;
@@ -243,12 +243,17 @@ namespace Code {
         void RotateLauncher()
         {
             //Rotate gun to mouse position
-            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            Vector2 mousePosition = CinemachineCore.Instance.GetActiveBrain(0).OutputCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
             Vector2 launcherToMouse = (mousePosition - (Vector2)launcher.transform.position).normalized;
             launcher.transform.right = launcherToMouse;
 
+            
+
+
             //Flips run if looking behind
             float launcherAngle = Mathf.Atan2(launcherToMouse.y, launcherToMouse.x) * Mathf.Rad2Deg;
+
+            Debug.Log($"Mouse World Pos: {mousePosition}, LauncherToMouse: {launcherToMouse}, Angle: {launcherAngle}");
 
             Vector3 localScale = new Vector3(0.6f, 0.6f, 0.6f);
             if (launcherAngle > 90 || launcherAngle < -90)
