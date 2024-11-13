@@ -112,7 +112,6 @@ namespace Code {
                     jumpsLeft--;
                     jumpTimeCounter = jumpTime;
                     _rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-                    //_rigidbody.velocity += Vector2.up * jumpForce * Time.fixedDeltaTime;
                 }
                 else if (jumpsLeft == 0 && dashTimer <= 0 && dashesLeft >= 1) {
 
