@@ -72,7 +72,6 @@ namespace Code
             {
                 timer = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);  
-                print("Round is over because time ran out, scene has restarted.");
             }
             
             UpdateTimerDisplay();

@@ -208,11 +208,14 @@ namespace Code {
                     }
                 }
 
-                _rigidbody.gravityScale = gravityScale;
-                jumpsLeft = 1;
-                dashesLeft = 1;
-                dashTimer = 0f;
-                isJumping = false;
+
+                if (jumpsLeft != 1 && _rigidbody.velocity.y <= 0) {
+                    _rigidbody.gravityScale = gravityScale;
+                    jumpsLeft = 1;
+                    dashesLeft = 1;
+                    dashTimer = 0f;
+                    isJumping = false;
+                }
             }
         }
         private void OnCollisionEnter2D(Collision2D collision)
