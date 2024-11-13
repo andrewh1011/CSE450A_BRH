@@ -10,9 +10,12 @@ namespace Code {
         //Outlet
         public Transform aimPivot;
         public GameObject projectilePrefab;
+        public GameObject bulletPrefab;
         SpriteRenderer sprite;
         Animator animator;
         public GameObject launcher;
+        SpriteRenderer launcherSprite;
+        public Sprite bulletSprite;
         Rigidbody2D _rigidbody;
 
         //Movement
@@ -55,6 +58,7 @@ namespace Code {
             _rigidbody = GetComponent<Rigidbody2D>();
             sprite = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+            launcherSprite = launcher.GetComponent<SpriteRenderer>();
 
             dashDirection = DashDirection.Right;
 
@@ -208,14 +212,11 @@ namespace Code {
                     }
                 }
 
-
-                if (jumpsLeft != 1 && _rigidbody.velocity.y <= 0) {
-                    _rigidbody.gravityScale = gravityScale;
-                    jumpsLeft = 1;
-                    dashesLeft = 1;
-                    dashTimer = 0f;
-                    isJumping = false;
-                }
+                _rigidbody.gravityScale = gravityScale;
+                jumpsLeft = 1;
+                dashesLeft = 1;
+                dashTimer = 0f;
+                isJumping = false;
             }
         }
         private void OnCollisionEnter2D(Collision2D collision)
@@ -242,6 +243,15 @@ namespace Code {
                 dashTimer = 0f;
                 Destroy(collision.gameObject.transform.parent.gameObject);
             }
+
+            if (collision.gameObject.tag == "Powerup")
+            {
+                projectilePrefab = bulletPrefab;
+                launcherSprite.sprite = bulletSprite;
+                Destroy(collision.gameObject);
+            }
+
+
         }
 
         void RotateLauncher()
