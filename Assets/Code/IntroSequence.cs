@@ -28,7 +28,7 @@ namespace Code {
         }
 
         private void Update() {
-            Debug.Log($"Camera Position: {virtualCamera.transform.position}");
+            //Debug.Log($"Camera Position: {virtualCamera.transform.position}");
 
             if (!delayComplete) {
                 delayTimer += Time.deltaTime;

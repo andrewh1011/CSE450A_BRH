@@ -64,6 +64,7 @@ namespace Code {
 
         void FixedUpdate()
         {
+            RotateLauncher();
             animator.SetFloat("Speed", _rigidbody.velocity.magnitude);
 
             if (_rigidbody.velocity.magnitude > 0)
@@ -78,9 +79,10 @@ namespace Code {
 
         // Update is called once per frame
         void Update() {
-            RotateLauncher();
             
-            if(shootTimer > 0) {
+       
+
+            if (shootTimer > 0) {
                 shootTimer -= Time.deltaTime;
             }
 
