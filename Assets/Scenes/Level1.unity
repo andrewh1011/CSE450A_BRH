@@ -14248,7 +14248,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c61039238313e4d05a7fa76a42c4c1fe, type: 3}
   m_Name: 
@@ -14256,6 +14256,7 @@ MonoBehaviour:
   target: {fileID: 122895587}
   offset: {x: 0, y: 0, z: 0}
   smoothness: 0.05
+  _velocity: {x: 0, y: 0, z: 0}
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0

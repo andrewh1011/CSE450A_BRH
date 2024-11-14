@@ -17,6 +17,7 @@ namespace Code {
         SpriteRenderer launcherSprite;
         public Sprite bulletSprite;
         Rigidbody2D _rigidbody;
+        Camera cam;
 
         //Movement
         public float gravityScale;
@@ -68,17 +69,7 @@ namespace Code {
 
         void FixedUpdate()
         {
-            RotateLauncher();
-            animator.SetFloat("Speed", _rigidbody.velocity.magnitude);
-
-            if (_rigidbody.velocity.magnitude > 0)
-            {
-                animator.speed = _rigidbody.velocity.magnitude / 4f;
-            }
-            else
-            {
-                animator.speed = 1f;
-            }
+            
         }
 
         // Update is called once per frame
@@ -198,6 +189,16 @@ namespace Code {
             }
 
             animator.SetInteger("jumpsLeft", jumpsLeft);
+
+            RotateLauncher();
+            animator.SetFloat("Speed", _rigidbody.velocity.magnitude);
+
+            if (_rigidbody.velocity.magnitude > 0) {
+                animator.speed = _rigidbody.velocity.magnitude / 4f;
+            }
+            else {
+                animator.speed = 1f;
+            }
         }
 
         void OnCollisionStay2D(Collision2D other) {
@@ -212,11 +213,14 @@ namespace Code {
                     }
                 }
 
-                _rigidbody.gravityScale = gravityScale;
-                jumpsLeft = 1;
-                dashesLeft = 1;
-                dashTimer = 0f;
-                isJumping = false;
+                if (jumpsLeft != 1 && _rigidbody.velocity.y <= 0) {
+                    _rigidbody.gravityScale = gravityScale;
+                    jumpsLeft = 1;
+                    dashesLeft = 1;
+                    dashTimer = 0f;
+                    isJumping = false;
+                }
+                
             }
         }
         private void OnCollisionEnter2D(Collision2D collision)
@@ -256,16 +260,24 @@ namespace Code {
 
         void RotateLauncher()
         {
+            cam = Camera.main;
             //Rotate gun to mouse position
-            Vector2 mousePosition = CinemachineCore.Instance.GetActiveBrain(0).OutputCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            Vector2 mousePosition = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
             Vector2 launcherToMouse = (mousePosition - (Vector2)launcher.transform.position).normalized;
             launcher.transform.right = launcherToMouse;
 
-            
-
-
             //Flips run if looking behind
             float launcherAngle = Mathf.Atan2(launcherToMouse.y, launcherToMouse.x) * Mathf.Rad2Deg;
+            Vector2 rawMousePos = Mouse.current.position.ReadValue();
+
+
+
+            // Debug output to track changes in world position and related values
+            Debug.Log($"Raw Mouse: {rawMousePos}, World Pos: {mousePosition}, LauncherToMouse: {launcherToMouse}, " +
+                      $"Angle: {launcherAngle}, Launcher Pos: {launcher.transform.position}, " +
+                      $"Camera Pos: {cam.transform.position}, Camera Rotation: {cam.transform.rotation.eulerAngles}, " +
+                      $"Orthographic: {cam.orthographic}, Size: {cam.orthographicSize}, " +
+                      $"Viewport Rect: {cam.rect}");
 
             //Debug.Log($"Mouse World Pos: {mousePosition}, LauncherToMouse: {launcherToMouse}, Angle: {launcherAngle}");
 
