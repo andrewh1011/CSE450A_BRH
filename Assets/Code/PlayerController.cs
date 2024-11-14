@@ -83,6 +83,9 @@ namespace Code {
                 return;
             }
 
+            if (Input.GetKeyDown(KeyCode.Escape)) {
+                MenuController.instance.Show();
+            }
 
             if (shootTimer > 0) {
                 shootTimer -= Time.deltaTime;
