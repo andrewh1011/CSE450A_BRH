@@ -42,16 +42,16 @@ namespace Code
             //print("Timer Digits Count: " + timerDigits.Length);
             
             // Calculate minutes and seconds
-            int minutes = Mathf.FloorToInt(timer / 60);
-            int seconds = Mathf.FloorToInt(timer % 60);
-            
+            //int minutes = Mathf.FloorToInt(timer / 60);
+            int seconds = Mathf.FloorToInt(timer);
+
             //print("Time: " + minutes + ":" + seconds);
-            
+
             //print("timerDigits[0] is: " + timerDigits[0]);
-            
+
             //Update the digit sprites
-            UpdateSprite(timerDigits[0], minutes % 10);
-            UpdateSprite(timerDigits[1], seconds / 10);
+            UpdateSprite(timerDigits[0], (seconds / 100) % 10);
+            UpdateSprite(timerDigits[1], (seconds / 10) % 10);
             UpdateSprite(timerDigits[2], seconds % 10);
         }
         
@@ -65,16 +65,17 @@ namespace Code
         // Update is called once per frame
         void Update()
         {
-            timer -= Time.deltaTime;
-            //timerText.text = levelTimer.ToString("0.00");
+            if (IntroSequence.panComplete) {
+                timer -= Time.deltaTime;
+                //timerText.text = levelTimer.ToString("0.00");
 
-            if (timer <= 0)
-            {
-                timer = 0;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);  
+                if (timer <= 0) {
+                    timer = 0;
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                }
+
+                UpdateTimerDisplay();
             }
-            
-            UpdateTimerDisplay();
         }
     }
     

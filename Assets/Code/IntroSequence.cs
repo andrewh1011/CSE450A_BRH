@@ -15,7 +15,7 @@ namespace Code {
         public float panTimer = 0;
         public float delayTimer = 0;
         public float zoomTimer = 0;
-        public bool panComplete;
+        public static bool panComplete;
         public bool delayComplete;
         public bool zoomComplete;
         public float startLensSize;
