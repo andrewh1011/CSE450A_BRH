@@ -280,11 +280,11 @@ namespace Code {
 
 
             // Debug output to track changes in world position and related values
-            Debug.Log($"Raw Mouse: {rawMousePos}, World Pos: {mousePosition}, LauncherToMouse: {launcherToMouse}, " +
-                      $"Angle: {launcherAngle}, Launcher Pos: {launcher.transform.position}, " +
-                      $"Camera Pos: {cam.transform.position}, Camera Rotation: {cam.transform.rotation.eulerAngles}, " +
-                      $"Orthographic: {cam.orthographic}, Size: {cam.orthographicSize}, " +
-                      $"Viewport Rect: {cam.rect}");
+            //Debug.Log($"Raw Mouse: {rawMousePos}, World Pos: {mousePosition}, LauncherToMouse: {launcherToMouse}, " +
+            //          $"Angle: {launcherAngle}, Launcher Pos: {launcher.transform.position}, " +
+            //          $"Camera Pos: {cam.transform.position}, Camera Rotation: {cam.transform.rotation.eulerAngles}, " +
+            //          $"Orthographic: {cam.orthographic}, Size: {cam.orthographicSize}, " +
+            //          $"Viewport Rect: {cam.rect}");
 
             //Debug.Log($"Mouse World Pos: {mousePosition}, LauncherToMouse: {launcherToMouse}, Angle: {launcherAngle}");
 

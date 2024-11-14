@@ -235,6 +235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 80259346}
   - component: {fileID: 80259347}
+  - component: {fileID: 80259348}
   m_Layer: 0
   m_Name: BackgroundMusic
   m_TagString: Untagged
@@ -353,6 +354,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &80259348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80259345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8004b9e68a23c8246a4a48f396a89a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &122895583
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,6 +545,7 @@ MonoBehaviour:
   jumpTime: 0.2
   jumpsLeft: 1
   dashesLeft: 0
+  isPaused: 0
   dashSpeed: 30
   dashDuration: 0.3
   dashTimer: 0
@@ -14157,7 +14171,6 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
   - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
@@ -14241,18 +14254,6 @@ Transform:
   - {fileID: 8392031877338126514}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c61039238313e4d05a7fa76a42c4c1fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
