@@ -109,7 +109,7 @@ namespace Code {
             }
 
             //Jump
-            if (Input.GetKeyDown(KeyCode.Space)) {
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) {
                 if (jumpsLeft >= 1) {
                     SoundManager.instance.playJumpSound();
                     
@@ -129,7 +129,7 @@ namespace Code {
             }
 
             //Jump cut, from https://www.youtube.com/watch?v=j111eKN8sJw
-            if (Input.GetKey(KeyCode.Space) && isJumping)
+            if ((Input.GetKey(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && isJumping)
             {
                 if (jumpTimeCounter > 0)
                 {
@@ -143,7 +143,7 @@ namespace Code {
                 
             }
 
-            if (Input.GetKeyUp(KeyCode.Space))
+            if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
             {
                 isJumping = false;
             }
