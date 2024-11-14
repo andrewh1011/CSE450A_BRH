@@ -7,6 +7,8 @@ using UnityEngine.InputSystem;
 
 namespace Code {
     public class PlayerController : MonoBehaviour {
+        public static PlayerController instance;
+
         //Outlet
         public Transform aimPivot;
         public GameObject projectilePrefab;
@@ -40,6 +42,7 @@ namespace Code {
         // State Tracking
         public int jumpsLeft;
         public int dashesLeft;
+        public bool isPaused;
 
         // Dash Tracking
         enum DashDirection {
@@ -52,7 +55,10 @@ namespace Code {
         private DashDirection dashDirection;
         public float dashDuration;
         public float dashTimer;
-        
+
+        private void Awake() {
+            instance = this;
+        }
 
         // Start is called before the first frame update
         void Start() {
@@ -64,7 +70,6 @@ namespace Code {
             dashDirection = DashDirection.Right;
 
             _rigidbody.gravityScale = gravityScale;
-            isJumping = false;
         }
 
         void FixedUpdate()
@@ -74,8 +79,10 @@ namespace Code {
 
         // Update is called once per frame
         void Update() {
-            
-       
+            if (isPaused) {
+                return;
+            }
+
 
             if (shootTimer > 0) {
                 shootTimer -= Time.deltaTime;
