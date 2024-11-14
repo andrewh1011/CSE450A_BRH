@@ -25,7 +25,11 @@ namespace Code {
             dolly = virtualCamera.GetCinemachineComponent<CinemachineTrackedDolly>();
             dolly.enabled = true;
             dolly.m_PathPosition = 0;
-        }
+
+            panComplete = false;
+            delayComplete = false;
+            zoomComplete = false;
+    }
 
         private void Update() {
             //Debug.Log($"Camera Position: {virtualCamera.transform.position}");
