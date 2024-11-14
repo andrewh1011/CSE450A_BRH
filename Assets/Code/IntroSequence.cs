@@ -45,7 +45,7 @@ namespace Code {
             if (!panComplete & delayComplete) {
                 panTimer += Time.deltaTime;
                 float progress = panTimer / panDuration;
-                dolly.m_PathPosition = progress * 123f;
+                dolly.m_PathPosition = progress * dolly.m_Path.PathLength;
 
                 if (progress >= 1) {
                     panComplete = true;
