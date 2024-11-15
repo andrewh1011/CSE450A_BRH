@@ -43,6 +43,7 @@ namespace Code {
         public int jumpsLeft;
         public int dashesLeft;
         public bool isPaused;
+        bool hasPowerUp;
 
         // Dash Tracking
         enum DashDirection {
@@ -70,6 +71,8 @@ namespace Code {
             dashDirection = DashDirection.Right;
 
             _rigidbody.gravityScale = gravityScale;
+
+            hasPowerUp = false;
         }
 
         void FixedUpdate()
@@ -196,6 +199,14 @@ namespace Code {
                 _rigidbody.AddForce(-launcher.transform.right * recoil, ForceMode2D.Impulse);
 
                 shootTimer = shootCooldown;
+
+                if (!hasPowerUp)
+                {
+                    SoundManager.instance.playLaunchSound();
+                } else
+                {
+                    SoundManager.instance.playBulletSound();
+                }
             }
 
             animator.SetInteger("jumpsLeft", jumpsLeft);
@@ -260,6 +271,7 @@ namespace Code {
 
             if (collision.gameObject.tag == "Powerup")
             {
+                hasPowerUp = true;
                 projectilePrefab = bulletPrefab;
                 launcherSprite.sprite = bulletSprite;
                 Destroy(collision.gameObject);

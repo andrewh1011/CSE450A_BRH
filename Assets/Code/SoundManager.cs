@@ -13,6 +13,7 @@ namespace Code
         //Outlets
         AudioSource audioSource;
         public AudioClip launchSound;
+        public AudioClip bulletSound;
         public AudioClip explosionSound;
         public AudioClip deathSound;
         public AudioClip jumpSound;
@@ -35,6 +36,15 @@ namespace Code
             if(sfx) {
                 audioSource.pitch = Random.Range(0.95f, 1.05f);
                 audioSource.PlayOneShot(launchSound);
+            }
+        }
+
+        public void playBulletSound()
+        {
+            if (sfx)
+            {
+                audioSource.pitch = Random.Range(0.95f, 1.05f);
+                audioSource.PlayOneShot(bulletSound);
             }
         }
 

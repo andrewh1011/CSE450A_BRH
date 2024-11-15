@@ -20,7 +20,6 @@ namespace Code
             _rigidbody2D.velocity = transform.right * speed + (Vector3)_playerRB.velocity / 2;
             Destroy(gameObject, 10f);
 
-            SoundManager.instance.playLaunchSound();
         }
 
         // Update is called once per frame
