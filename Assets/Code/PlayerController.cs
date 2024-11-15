@@ -132,7 +132,7 @@ namespace Code {
             }
 
             //Jump cut, from https://www.youtube.com/watch?v=j111eKN8sJw
-            if ((Input.GetKey(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && isJumping)
+            if ((Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W)) && isJumping)
             {
                 if (jumpTimeCounter > 0)
                 {
@@ -146,7 +146,7 @@ namespace Code {
                 
             }
 
-            if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
+            if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W))
             {
                 isJumping = false;
             }
