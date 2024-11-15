@@ -26,13 +26,13 @@ namespace Code
             //print("Updating with: " + number);
             
             
-            SpriteRenderer spriteRenderer = digitObject.GetComponent<SpriteRenderer>();
+            Image image = digitObject.GetComponent<Image>();
             
             //print("Our sprite renderer of " + digitObject.name + " is " + spriteRenderer.sprite);
             
-            if (spriteRenderer != null && number < numberSprites.Length)
+            if (image != null && number < numberSprites.Length)
             {
-                spriteRenderer.sprite = numberSprites[number];
+                image.sprite = numberSprites[number];
             }
             
         }
