@@ -2544,6 +2544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   launchSound: {fileID: 8300000, guid: b3f74e3dab0cb41bb918fa1c859d03f7, type: 3}
+  bulletSound: {fileID: 8300000, guid: d9e0de274c2464265b7e6443ec93d519, type: 3}
   explosionSound: {fileID: 8300000, guid: 0b659c240f73846899d1b805b2b4e8e2, type: 3}
   deathSound: {fileID: 8300000, guid: 2f141d7e1e7f94d08839b1939424b00b, type: 3}
   jumpSound: {fileID: 8300000, guid: 20311025a224748d5b9fa9acebd5a136, type: 3}
