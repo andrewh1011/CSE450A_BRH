@@ -13,10 +13,14 @@ namespace Code
                 //Reload the scene when colliding with player
                 if (collision.gameObject.GetComponent<PlayerController>())
                 {
-                    if (collision.gameObject.tag == "Player")
+                    if (SceneManager.GetActiveScene().name == "Level1")
                     {
-                        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                        SceneManager.LoadScene("Level2");
+                    } else if (SceneManager.GetActiveScene().name == "Level2")
+                    {
+                        SceneManager.LoadScene("Level1");
                     }
+                    
                    
                 }
 
