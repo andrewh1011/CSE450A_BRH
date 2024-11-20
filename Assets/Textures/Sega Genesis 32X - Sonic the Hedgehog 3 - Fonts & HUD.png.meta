@@ -1661,7 +1661,7 @@ TextureImporter:
         serializedVersion: 2
         x: 72
         y: 710
-        width: 14
+        width: 7
         height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3907,9 +3907,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 209
-        y: 522
+        y: 510
         width: 7
-        height: 11
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9383,6 +9383,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog 3 - Fonts & HUD_441
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 710
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c00f9a2dc38c244dbef3b89bb967e3c
+      internalID: 1199360726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -9775,6 +9796,7 @@ TextureImporter:
       Sega Genesis 32X - Sonic the Hedgehog 3 - Fonts & HUD_439: -1272486329
       Sega Genesis 32X - Sonic the Hedgehog 3 - Fonts & HUD_44: 2077639942
       Sega Genesis 32X - Sonic the Hedgehog 3 - Fonts & HUD_440: 1885747942
+      Sega Genesis 32X - Sonic the Hedgehog 3 - Fonts & HUD_441: 1199360726
       Sega Genesis 32X - Sonic the Hedgehog 3 - Fonts & HUD_45: -457720310
       Sega Genesis 32X - Sonic the Hedgehog 3 - Fonts & HUD_46: -661391919
       Sega Genesis 32X - Sonic the Hedgehog 3 - Fonts & HUD_47: 802399139
