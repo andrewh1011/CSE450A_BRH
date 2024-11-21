@@ -11,7 +11,7 @@ namespace Code {
         }
 
         void Update() {
-            audioSource.mute = !SoundManager.music;
+            audioSource.mute = !Settings.toggleMusic;
         }
     }
 }

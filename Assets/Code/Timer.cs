@@ -18,6 +18,7 @@ namespace Code
 
         //Array of GameObjects to display each digit
         public GameObject[] timerDigits = new GameObject[3];
+        public GameObject levelTimer;
         
         void UpdateSprite(GameObject digitObject, int number)
         {
@@ -57,15 +58,19 @@ namespace Code
         
         void Start()
         {
+
             timer = timeLimit;
             UpdateTimerDisplay();
+            if (levelTimer != null) {
+                levelTimer.SetActive(Settings.timerModifier);
+            }
 
         }
 
         // Update is called once per frame
         void Update()
         {
-            if (IntroSequence.panComplete) {
+            if (IntroSequence.panComplete && Settings.timerModifier) {
                 timer -= Time.deltaTime;
                 //timerText.text = levelTimer.ToString("0.00");
 
@@ -76,6 +81,13 @@ namespace Code
 
                 UpdateTimerDisplay();
             }
+        }
+
+        public void toggleTimer() {
+            Settings.timerModifier = !Settings.timerModifier;
+            if (levelTimer != null) {
+                levelTimer.SetActive(Settings.timerModifier);
+            } 
         }
     }
     

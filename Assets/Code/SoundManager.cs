@@ -7,8 +7,6 @@ namespace Code
     public class SoundManager : MonoBehaviour
     {
         public static SoundManager instance;
-        public static bool music = true;
-        public static bool sfx = true;
 
         //Outlets
         AudioSource audioSource;
@@ -33,7 +31,7 @@ namespace Code
 
         public void playLaunchSound()
         {
-            if(sfx) {
+            if(Settings.toggleSFX) {
                 audioSource.pitch = Random.Range(0.95f, 1.05f);
                 audioSource.PlayOneShot(launchSound);
             }
@@ -41,7 +39,7 @@ namespace Code
 
         public void playBulletSound()
         {
-            if (sfx)
+            if (Settings.toggleSFX)
             {
                 audioSource.pitch = Random.Range(0.95f, 1.05f);
                 audioSource.PlayOneShot(bulletSound);
@@ -50,30 +48,30 @@ namespace Code
 
         public void playExplosionSound()
         {
-            if (sfx) audioSource.PlayOneShot(explosionSound);
+            if (Settings.toggleSFX) audioSource.PlayOneShot(explosionSound);
         }
 
         public void playDeathSound()
         {
-            if (sfx) audioSource.PlayOneShot(deathSound);
+            if (Settings.toggleSFX) audioSource.PlayOneShot(deathSound);
         }
 
         public void playJumpSound()
         {
-            if (sfx) audioSource.PlayOneShot(jumpSound);
+            if (Settings.toggleSFX) audioSource.PlayOneShot(jumpSound);
         }
 
         public void playDashSound()
         {
-            if (sfx) audioSource.PlayOneShot(dashSound);
+            if (Settings.toggleSFX) audioSource.PlayOneShot(dashSound);
         }
 
         public void toggleMusic() {
-            music = !music;
+            Settings.toggleMusic = !Settings.toggleMusic;
         }
 
         public void toggleSFX() { 
-            sfx = !sfx;
+            Settings.toggleSFX = !Settings.toggleSFX;
         }
     }
 }

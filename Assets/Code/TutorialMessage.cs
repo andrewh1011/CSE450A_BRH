@@ -8,7 +8,7 @@ namespace Code {
 
         public GameObject[] letterObjects;
 
-        private string msg = "use a and d to move left and right   spacebar will allow you to jump or dash if you have already jumped   use the cursor to aim and shoot your weapon at enemies   collect powerups to upgrade your weapon   beware of level specific challenges   reach the castle to move on";
+        private string msg = "use a and d to move left and right   spacebar will allow you to jump or to dash if you have already jumped   use the cursor to aim and shoot your weapon at enemies   collect powerups to upgrade your weapon   make sure to finish levels in time without being hit by any arrows   reach the castle to move on";
 
         void Start() {
             letterObjects = new GameObject[msg.Length];

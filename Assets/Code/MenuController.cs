@@ -56,8 +56,16 @@ namespace Code {
             SwitchMenu(levelMenu);
         }
 
-        public void LoadLevel() {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        public void LoadTutorial() {
+            SceneManager.LoadScene("Tutorial");
+        }
+
+        public void LoadLevel1() {
+            SceneManager.LoadScene("Level1");
+        }
+
+        public void LoadLevel2() {
+            SceneManager.LoadScene("Level2");
         }
     }
 
