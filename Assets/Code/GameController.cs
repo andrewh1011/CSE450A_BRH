@@ -13,6 +13,7 @@ namespace Code {
         public GameObject enemyProjectile;
         public Transform player;
         public Image warning;
+        public GameObject arrowBreakPrefab;
 
         // State Tracking
         public float firingDelay;

@@ -2041,6 +2041,7 @@ MonoBehaviour:
   enemyProjectile: {fileID: 8075171114454473475, guid: 0f3498d6d9b4b784aa5ddd290de3c836, type: 3}
   player: {fileID: 122895587}
   warning: {fileID: 835008875}
+  arrowBreakPrefab: {fileID: 5248277247656731019, guid: 5d70af9ee9bc09e488f933d2e8a0a912, type: 3}
   firingDelay: 3
 --- !u!1 &1059132592
 GameObject:

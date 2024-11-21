@@ -31,12 +31,21 @@ namespace Code {
         }
 
         void OnCollisionEnter2D(Collision2D other) {
+            Destroy(gameObject);
+
+            GameObject arrowBreak = Instantiate(
+                GameController.instance.arrowBreakPrefab,
+                transform.position,
+                Quaternion.identity);
+
+            Destroy(arrowBreak, 0.25f);
+
             if (other.gameObject.GetComponent<PlayerController>()) {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
             }
 
-            Destroy(gameObject);
+            
         }
     }
 }
