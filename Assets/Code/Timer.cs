@@ -40,8 +40,9 @@ namespace Code
 
         void UpdateTimerDisplay()
         {
+            if (!Settings.timerModifier) return;
             //print("Timer Digits Count: " + timerDigits.Length);
-            
+
             // Calculate minutes and seconds
             //int minutes = Mathf.FloorToInt(timer / 60);
             int seconds = Mathf.FloorToInt(timer);
