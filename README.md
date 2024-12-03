@@ -1,6 +1,6 @@
 # BRH
 
-## Link
+## Game Link
 
 https://andrewh1011.itch.io/brh
 
